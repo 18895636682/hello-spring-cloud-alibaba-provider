@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhuzhi.spring.cloud.alibaba.provider.mapper.MobilelocMapper">
+  <resultMap id="BaseResultMap" type="com.zhuzhi.spring.cloud.alibaba.provider.domain.Mobileloc">
+    <!--@mbg.generated generated on Thu Feb 27 21:57:49 CST 2020.-->
+    <!--@Table mobileloc-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="prefix" jdbcType="VARCHAR" property="prefix" />
+    <result column="mobilenumber" jdbcType="VARCHAR" property="mobilenumber" />
+    <result column="mobileareaprovince" jdbcType="VARCHAR" property="mobileareaprovince" />
+    <result column="mobileareacity" jdbcType="VARCHAR" property="mobileareacity" />
+    <result column="mobiletype" jdbcType="VARCHAR" property="mobiletype" />
+    <result column="postcode" jdbcType="VARCHAR" property="postcode" />
+    <result column="areacode" jdbcType="VARCHAR" property="areacode" />
+    <result column="citycode" jdbcType="VARCHAR" property="citycode" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu Feb 27 21:57:49 CST 2020.-->
+    id, `prefix`, mobilenumber, mobileareaprovince, mobileareacity, mobiletype, postcode, 
+    areacode, citycode
+  </sql>
+</mapper>

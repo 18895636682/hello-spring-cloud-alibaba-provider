@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhuzhi.spring.cloud.alibaba.provider.mapper.aliaccount.AliAccountMapper">
+  <resultMap id="BaseResultMap" type="com.zhuzhi.spring.cloud.alibaba.provider.domain.aliaccount.AliAccount">
+    <!--@mbg.generated generated on Mon Mar 02 13:27:35 CST 2020.-->
+    <!--@Table aliAccountManagement-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user" jdbcType="VARCHAR" property="user" />
+    <result column="appkey" jdbcType="VARCHAR" property="appkey" />
+    <result column="AccessKeyID" jdbcType="VARCHAR" property="accesskeyid" />
+    <result column="AccessKeySecret" jdbcType="VARCHAR" property="accesskeysecret" />
+    <result column="addTime" jdbcType="TIMESTAMP" property="addtime" />
+    <result column="editTime" jdbcType="TIMESTAMP" property="edittime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Mon Mar 02 13:27:35 CST 2020.-->
+    id, `user`, appkey, AccessKeyID, AccessKeySecret, addTime, editTime
+  </sql>
+</mapper>

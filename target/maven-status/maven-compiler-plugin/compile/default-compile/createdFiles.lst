@@ -1,0 +1,8 @@
+com\zhuzhi\spring\cloud\alibaba\provider\controller\AliAsr.class
+com\zhuzhi\spring\cloud\alibaba\provider\req\asr\AsrMeta.class
+com\zhuzhi\spring\cloud\alibaba\provider\shared\RecordFileShared.class
+com\zhuzhi\spring\cloud\alibaba\provider\shared\MobilelocShared.class
+com\zhuzhi\spring\cloud\alibaba\provider\service\asr\AliAsrService.class
+tk\mybatis\mapper\MyMapper.class
+com\zhuzhi\spring\cloud\alibaba\provider\config\RedissonConfig.class
+com\zhuzhi\spring\cloud\alibaba\provider\service\asr\impl\AliAsrServiceImpl.class
